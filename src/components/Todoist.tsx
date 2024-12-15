@@ -166,16 +166,16 @@ const Todoist: React.FC<TodoistProps> = ({ projectId, projectName, allProjects }
                 {editingTask?.id === task.id ? (
                   <div style={{ flex: 1 }}>
                     <Input
-                      value={editingTask.content}
+                      value={editingTask!.content}
                       onChange={(e) =>
-                        setEditingTask({ ...editingTask, content: e.target.value })
+                        setEditingTask({ ...editingTask!, content: e.target.value })
                       }
                       style={{ marginBottom: "8px" }}
                     />
                     <Input.TextArea
-                      value={editingTask.description}
+                      value={editingTask!.description}
                       onChange={(e) =>
-                        setEditingTask({ ...editingTask, description: e.target.value })
+                        setEditingTask({ ...editingTask!, description: e.target.value })
                       }
                       style={{ marginBottom: "8px" }}
                     />
