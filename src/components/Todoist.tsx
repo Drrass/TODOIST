@@ -4,7 +4,6 @@ import { List, Button, message, Input, Checkbox, Dropdown, Menu } from "antd";
 import { PlusOutlined,   DeleteOutlined,   EditOutlined,   SwapOutlined } from "@ant-design/icons";
 
 interface TodoistProps { projectId: string; projectName: string; allProjects: { id: string; name: string; isFavorite: boolean }[];}
-interface EditingTask {  id: string;  content: string;  description: string;}
 
 const Todoist: React.FC<TodoistProps> = ({ projectId, projectName, allProjects }) => {
   const [tasks, setTasks] = useState<any[]>([]);
@@ -12,7 +11,7 @@ const Todoist: React.FC<TodoistProps> = ({ projectId, projectName, allProjects }
   const [newTaskDescription, setNewTaskDescription] = useState("");
   const [isAddTaskVisible, setIsAddTaskVisible] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [editingTask, setEditingTask] = useState<EditingTask | null>(null);
+  const [editingTask, setEditingTask] = useState<{ id: string; content: string; description: string } | null>(null);
 
   const api = new TodoistApi(import.meta.env.VITE_TODOIST_API_TOKEN as string);
 
