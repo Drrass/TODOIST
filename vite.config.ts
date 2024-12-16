@@ -9,6 +9,6 @@ export default defineConfig({
     outDir: 'dist',
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.ts', '.tsx'] // Add this to handle file extensions
+    extensions: ['.js', '.jsx', '.ts', '.tsx'] 
   }
 })
