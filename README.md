@@ -1,9 +1,11 @@
-# React + TypeScript + Vite
+# Todoist Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A task management application built with React, TypeScript, and the Todoist API.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Create `.env` file with your Todoist API token:   ```
+   VITE_TODOIST_API_TOKEN=your_api_token_here   ```
+4. Run development server: `npm run dev`
 
