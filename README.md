@@ -1,11 +1,55 @@
-# Todoist Clone
+# React Todoist Clone
 
-A task management application built with React, TypeScript, and the Todoist API.
+A simplified Todoist clone built with React, TypeScript, and Ant Design, integrating with the official Todoist API.
 
-## Setup
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Create `.env` file with your Todoist API token:   ```
-   VITE_TODOIST_API_TOKEN=your_api_token_here   ```
-4. Run development server: `npm run dev`
+## 🚀 Features
 
+- ✅ Create, read, update, and delete tasks
+- 📝 Add task descriptions
+- 🔄 Move tasks between projects
+- 📱 Clean and responsive UI using Ant Design
+- 🔑 Integration with Todoist API
+- ⚡ Built with Vite and TypeScript
+
+## 🛠️ Technologies Used
+
+- React
+- TypeScript
+- Ant Design (UI Framework)
+- Todoist API
+- Vite
+
+## 📋 Prerequisites
+
+Before running this project, you need to:
+
+1. Have Node.js installed
+2. Have a Todoist account
+3. Generate a Todoist API token
+
+## ⚙️ Environment Setup
+
+Create a `.env` file in the root directory and add your Todoist API token:
+
+```
+REACT_APP_TODOIST_API_KEY=your_api_key_here
+```
+
+## 🚀 Deployment
+
+Access the live project at: [Todoist Clone Deployment](https://todoist-a6sl.vercel.app/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](link-to-issues).
+
+## 📝 License
+
+This project is [MIT](link-to-license) licensed.
+
+## 🙏 Acknowledgments
+
+- **Special thanks to Deepak Chandola Sir** for guidance and providing this project.
+- [Todoist API](https://developer.todoist.com/rest/v2)
+- [Ant Design](https://ant.design/)
+- [React](https://reactjs.org/)
