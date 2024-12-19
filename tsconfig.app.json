@@ -10,7 +10,7 @@
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": false,  // Changed to false
+    "allowImportingTsExtensions": false,  
     "isolatedModules": true,
     "noEmit": true,
     "strict": false,

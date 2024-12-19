@@ -9,7 +9,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": false,  // Changed to false
+    "allowImportingTsExtensions": false,  
     "isolatedModules": true,
     "moduleDetection": "force",
     "strict": true,
